@@ -54,23 +54,11 @@ const App: React.FC = () => {
             </article>
 
             <div className="cards-list">
-              <Row gutter={16}>
-                <Col span={4}>
-                  <Card type="user" color="#3DD598" price="150" text="Par salarié" />
-                </Col>
-                <Col span={4}>
-                  <Card type="heart" color="#F5222D" price="100" text="Par conjoint" />
-                </Col>
-                <Col span={4}>
-                  <Card type="user-add" color="#EB2F96" price="100" text="Par enfant" />
-                </Col>
-                <Col span={4}>
-                  <Card type="usergroup-add" color="#722ED1" price="214" text="Participants" />
-                </Col>
-                <Col span={4}>
-                  <Card type="euro" color="#FA8C16" price="16 124" text="Consommés" />
-                </Col>
-              </Row>
+              <Card type="user" color="#3DD598" price="150" text="Par salarié" />
+              <Card type="heart" color="#F5222D" price="100" text="Par conjoint" />
+              <Card type="user-add" color="#EB2F96" price="100" text="Par enfant" />
+              <Card type="usergroup-add" color="#722ED1" price="214" text="Participants" />
+              <Card type="euro" color="#FA8C16" price="16 124" text="Consommés" />
             </div>
 
             <Row>

@@ -41,8 +41,9 @@ class Card extends React.Component {
 }
 
 const CardContainer = styled.div`
-  width: 180px;
+  min-width: 180px;
   height: 100px;
+  padding: 10px;
   display: inline-block;
   background: #FFFFFF;
   border: 1px solid rgba(192, 196, 207, 0.3);
